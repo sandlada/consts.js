@@ -1,0 +1,47 @@
+{
+  "author": "Kai Orion <kai-orion@sandlada.com>",
+  "bugs": {
+    "url": "https://github.com/sandlada/consts.js/issues"
+  },
+  "description": "(For private use.) It exported information such as the website URL and author of Sandlada.",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
+    "bumpp": "^11.0.1",
+    "tsdown": "^0.21.7",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/sandlada/consts.js#readme",
+  "keywords": [
+    "private-use",
+    "sandlada"
+  ],
+  "license": "MIT",
+  "name": "@sandlada/consts.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandlada/consts.js.git"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.1-20260430.a"
+}

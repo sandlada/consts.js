@@ -5,12 +5,9 @@
   },
   "description": "(For private use.) It exported information such as the website URL and author of Sandlada.",
   "devDependencies": {
-    "@types/node": "^25.5.0",
-    "@typescript/native-preview": "7.0.0-dev.20260328.1",
-    "bumpp": "^11.0.1",
-    "tsdown": "^0.21.7",
-    "typescript": "^6.0.2",
-    "vitest": "^4.1.2"
+    "@types/node": "^26.6.2",
+    "tsdown": "^0.23.0",
+    "typescript": "^7.0.2"
   },
   "exports": {
     ".": "./dist/index.mjs",
@@ -37,8 +34,6 @@
     "build": "tsdown",
     "dev": "tsdown --watch",
     "prepublishOnly": "npm run build",
-    "release": "bumpp",
-    "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
   "sideEffects": false,

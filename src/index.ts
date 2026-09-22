@@ -107,6 +107,18 @@ export const Consts = {
       LicenseLink: `https://github.com/sandlada/opencode-material-theme/blob/main/LICENSE`,
       LicenseName: `MIT`,
     },
+    ZedMaterialTheme: {
+      Author: `Kai-Orion & Sandlada`,
+      FormalName: `@sandlada/zed-material-theme`,
+      DisplayName: `Material Theme`,
+      GitHubName: `zed-material-theme`,
+      GitHubLink: `https://github.com/sandlada/zed-material-theme`,
+      NpmName: '@sandlada/zed-material-theme',
+      NpmLink: `https://www.npmjs.com/package/@sandlada/zed-material-theme`,
+      NpmDownload: `npm i @sandlada/zed-material-theme`,
+      LicenseLink: `https://github.com/sandlada/zed-material-theme/blob/main/LICENSE`,
+      LicenseName: `MIT`,
+    },
     MaterialVSCodeExtensions: {
       Author: `Kai-Orion & Sandlada`,
       FormalName: `material-vscode-extensions`,

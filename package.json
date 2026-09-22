@@ -1,5 +1,5 @@
 {
-  "author": "Kai Orion <kai-orion@sandlada.com>",
+  "author": "Kai Orion",
   "bugs": {
     "url": "https://github.com/sandlada/consts.js/issues"
   },
@@ -38,5 +38,5 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.1-20260430.a"
+  "version": "0.0.1-20260920.a"
 }
